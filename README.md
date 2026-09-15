@@ -78,7 +78,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Home
-  <img src="./StudentScreenshots/home.png" width="800" alt="Student Home"/>
+  <img src="./studentScreenshots/home.png" width="800" alt="Student Home"/>
 </p>
 <p align="center">
   The Student Home screen serves as the primary entry point and dynamic welcome gateway for the student side of the InternHub ecosystem. 
@@ -92,7 +92,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Registration
-  <img src="./StudentScreenshots/studentRegister.png" width="800" alt="Student Registration"/>
+  <img src="./studentScreenshots/studentRegister.png" width="800" alt="Student Registration"/>
 </p>
 <p align="center">
   The Student Registration screen allows new and aspiring candidates to create their official InternHub account from scratch. 
@@ -106,7 +106,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Login
-  <img src="./StudentScreenshots/studentLogin.png" width="800" alt="Student Login"/>
+  <img src="./studentScreenshots/studentLogin.png" width="800" alt="Student Login"/>
 </p>
 <p align="center">
   The Student Login screen provides a highly secure, encrypted authentication gateway for returning students to safely access their personal accounts. 
@@ -120,7 +120,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Profile
-  <img src="./StudentScreenshots/studentProfile.png" width="800" alt="Student Profile"/>
+  <img src="./studentScreenshots/studentProfile.png" width="800" alt="Student Profile"/>
 </p>
 <p align="center">
   The Student Profile screen functions as a comprehensive digital portfolio and resume-like hub where students highlight their professional identities. 
@@ -134,7 +134,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Resume
-  <img src="./StudentScreenshots/studentResume.png" width="800" alt="Student Resume"/>
+  <img src="./studentScreenshots/studentResume.png" width="800" alt="Student Resume"/>
 </p>
 <p align="center">
   The Student Resume screen represents the dedicated document repository and file management section of the student portal. 
@@ -148,7 +148,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Internship Listing
-  <img src="./StudentScreenshots/studentInternship.png" width="800" alt="Student Internship Listing"/>
+  <img src="./studentScreenshots/studentInternship.png" width="800" alt="Student Internship Listing"/>
 </p>
 <p align="center">
   The Student Internship Listing screen acts as the main discovery and exploration hub of the platform. 
@@ -162,7 +162,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Internship Details
-  <img src="./StudentScreenshots/studentinternshipDetail.png" width="800" alt="Student Internship Details"/>
+  <img src="./studentScreenshots/studentinternshipDetail.png" width="800" alt="Student Internship Details"/>
 </p>
 <p align="center">
   The Student Internship Details screen provides an exhaustive, in-depth overview of a selected individual internship position. 
@@ -176,7 +176,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Application
-  <img src="./StudentScreenshots/StudentApplication.png" width="800" alt="Student Application"/>
+  <img src="./studentScreenshots/StudentApplication.png" width="800" alt="Student Application"/>
 </p>
 <p align="center">
   The Student Application screen is the core submission portal where students formalize their interest in an open opportunity. 
@@ -190,7 +190,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Chat
-  <img src="./StudentScreenshots/StudentChat.png" width="800" alt="Student Chat"/>
+  <img src="./studentScreenshots/StudentChat.png" width="800" alt="Student Chat"/>
 </p>
 <p align="center">
   The Student Chat screen provides a built-in, real-time messaging workspace powered by persistent socket communication (Socket.io). 
