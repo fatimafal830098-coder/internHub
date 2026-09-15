@@ -176,7 +176,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Application
-  <img src="./studentScreenshots/StudentApplication.png" width="800" alt="Student Application"/>
+  <img src="./studentScreenshots/studentApplication.png" width="800" alt="Student Application"/>
 </p>
 <p align="center">
   The Student Application screen is the core submission portal where students formalize their interest in an open opportunity. 
@@ -190,7 +190,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🎓 Student Chat
-  <img src="./studentScreenshots/StudentChat.png" width="800" alt="Student Chat"/>
+  <img src="./studentScreenshots/studentChat.png" width="800" alt="Student Chat"/>
 </p>
 <p align="center">
   The Student Chat screen provides a built-in, real-time messaging workspace powered by persistent socket communication (Socket.io). 
@@ -306,7 +306,7 @@ Below is the complete architectural mapping of the visual assets organized clean
 
 <p align="center">
   ## 🛡️ Admin Dashboard
-  <img src="./adminScreenshots/adminDashboard.png" width="800" alt="Admin Dashboard"/>
+  <img src="./adminScreenshots/adminDasboard.png" width="800" alt="Admin Dashboard"/>
 </p>
 <p align="center">
   The Admin Dashboard is the high-level macro management hub of the entire platform architecture. 
