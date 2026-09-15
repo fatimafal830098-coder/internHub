@@ -67,106 +67,204 @@ The platform is segregated into three distinct user roles to maintain high secur
 
 ---
 
-6. 🖼️ Visual Documentation (Screenshots Guide)
-Below is the complete architectural mapping of the visual assets organized cleanly across the platform's dedicated directories, featuring detailed descriptions for every single screen.
-🎓 Student Screenshots (studentScreenshots)
-### Student HomePage
-File Path: studentScreenshots/home.png
-Description:
-The Student Home screen serves as the primary entry point and welcome gateway for the student side of the InternHub ecosystem.
-It introduces visitors to the platform's core vision, provides quick navigation links toward authentication pages, and highlights key features to help users easily transition into internship discovery and profile management sections.
-### Student Registration
-File Path: studentScreenshots/studentRegister.png
-Description:
-The Student Registration screen allows new and aspiring students to create their official InternHub account from scratch.
-By filling out basic identification credentials, users establish their personal accounts, opening the door to the student-specific ecosystem where they can manage applications, profiles, and communications.
-### Student Login
-File Path: studentScreenshots/studentLogin.png
-Description:
-The Student Login screen provides a secure authentication gateway for returning students to access their accounts.
-Powered by encrypted session handling, it ensures that students can securely log in to manage their private profiles, view active internship listings, and track ongoing application statuses.
-### Student Profile
-File Path: studentScreenshots/studentProfile.png
-Description:
-The Student Profile screen functions as a comprehensive digital portfolio where students can highlight their professional identities.
-It organizes critical details including personal bio, academic background, technical skill sets, creative projects, and profile pictures, acting as the primary resume-like overview that recruiters examine during evaluations.
-### Student Resume
-File Path: studentScreenshots/studentResume.png
-Description:
-The Student Resume screen represents the document repository section of the student portal.
-It displays uploaded curriculum vitae (CV) files, giving recruiters deep, detailed insights into educational history, past achievements, and technical expertise to strongly support active job applications.
-### Student Internship Listing
-File Path: studentScreenshots/studentInternship.png
-Description:
-The Student Internship Listing screen acts as the main discovery hub of the platform.
-It features an organized catalog of all active and administrator-approved internship opportunities, allowing students to browse, filter, and explore various roles that align with their personal career interests and technical proficiencies.
-### Student Internship Details
-File Path: studentScreenshots/studentinternshipDetail.png
-Description:
-The Student Internship Details screen provides an in-depth, comprehensive overview of a selected internship.
-Before submitting an application, students can review vital specifications such as detailed job descriptions, company backgrounds, work modes (remote/hybrid/onsite), stipend types, required technical skills, duration, and final deadlines.
-### Student Application
-File Path: studentScreenshots/studentApplication.png
-Description:
-The Student Application screen is the submission portal where students finalize their interest in an opportunity.
-It allows users to attach custom cover letters alongside their professional profiles, packaging everything neatly for the hiring manager's review pipeline.
-### Student Chat
-File Path: studentScreenshots/studentChat.png
-Description:
-The Student Chat screen provides a built-in real-time messaging workspace.
-It enables direct, professional communication channels between applicants and company recruiters, facilitating smooth interview coordination, internship discussions, and follow-up updates.
-🧑‍💼 Recruiter Screenshots (recruiterScreenshots)
-### Recruiter Registration
-File Path: recruiterScreenshots/recruiterRegister.png
-Description:
-The Recruiter Registration screen is the dedicated corporate onboarding portal where organizations and hiring managers sign up for the platform.
-It captures essential professional and corporate information, initiating the administrative verification and approval workflow before the recruiter can access publishing tools.
-### Recruiter Profile
-File Path: recruiterScreenshots/recruiterProfile.png
-Description:
-The Recruiter Profile screen functions as the corporate branding center.
-It allows recruiters to build a strong company identity by uploading company logos, writing detailed business descriptions, providing official website links, and setting up office locations so students know exactly who is hiring.
-### Recruiter Dashboard
-File Path: recruiterScreenshots/recruiterDashboard.png
-Description:
-The Recruiter Dashboard acts as the central command center for all talent acquisition activities.
-It provides hiring managers with a bird's-eye view of active job postings, incoming applications, candidate pipeline metrics, and system activity logs from a single unified interface.
-### Recruiter Internship
-File Path: recruiterScreenshots/recruiterInternship.png
-Description:
-The Recruiter Internship screen is the structured creation and management form used to publish new positions.
-Recruiters can define precise details like job titles, role descriptions, required skill sets, work arrangements, durations, and application deadlines to attract the most suitable student candidates.
-### Recruiter Applications
-File Path: recruiterScreenshots/recruiterApplications.png
-Description:
-The Recruiter Applications screen serves as the applicant tracking and evaluation grid.
-Here, recruiters can review candidate profiles, inspect attached cover letters, evaluate qualifications, and dynamically update application stages (such as Pending, Shortlisted, Accepted, or Rejected) to drive the hiring process forward.
-🛡️ Admin Screenshots (adminScreenshots)
-### Admin Registration
-File Path: adminScreenshots/adminRegister.png
-Description:
-The Admin Registration screen represents the secure account creation area designated exclusively for platform administrators, ensuring that system-level management controls remain heavily protected and segregated from standard users.
-### Admin Profile
-File Path: adminScreenshots/adminProfile.png
-Description:
-The Admin Profile screen provides platform administrators with a dedicated control panel to view and update their system credentials and administrative account settings.
-### Admin Dashboard
-File Path: adminScreenshots/adminDashboard.png
-Description:
-The Admin Dashboard is the high-level management hub of the entire platform.
-It grants administrators complete macro-level visibility, offering powerful tools to monitor global platform activities, oversee user directories, and manage overall system health.
-### Notifications
-File Path: adminScreenshots/notifications.png
-Description:
-The Notifications screen represents the integrated system-wide alert hub.
-It keeps users across all roles instantly informed about critical events—such as new student applications, profile approvals, or application status modifications—ensuring total transparency without requiring manual page refreshes.
-7. 💻 Technology Stack
-Frontend Architecture: React.js, React Router, Redux Toolkit, Axios, Custom UI Styling.
-Backend Architecture: Node.js, Express.js.
-Database Management: MongoDB, Mongoose ODM, MongoDB Atlas.
-Real-time & Security: Socket.IO (Live Chat), Multer (File & Image Uploads), JWT with HTTP-only Cookies.
-Development & Version Control: Postman, Git, GitHub.
-8. 🌟 Project Benefits
-For Students: Structured career pathways, effortless discovery, and complete transparency on application progress.
-For Recruiters: Access to a verified talent pool, streamlined evaluation tools, and structured hiring pipelines.
-For Administrators: Total platform control, trusted company verification, and a well-regulated ecosystem.
+---
+
+## 6. 🖼️ Visual Documentation (Screenshots Guide)
+Below is the complete architectural mapping of the visual assets organized cleanly across the platform's dedicated directories, featuring detailed descriptions and direct image previews for every single screen.
+
+---
+
+### 🎓 Student Screenshots (`StudentScreenshots`) (Total: 14)
+
+#### ### 1. Student Home
+* **File Path / Preview:** `![Student Home](StudentScreenshots/home.png)`
+* **Description:** 
+  * The Student Home screen serves as the primary entry point and welcome gateway for the student side of the InternHub ecosystem.
+  * It introduces visitors to the platform's core vision, provides quick navigation links toward authentication pages, and highlights key features.
+
+---
+
+#### ### 2. Student Registration
+* **File Path / Preview:** `![Student Registration](StudentScreenshots/studentRegister.png)`
+* **Description:** 
+  * The Student Registration screen allows new and aspiring students to create their official InternHub account from scratch. 
+  * By filling out basic identification credentials, users establish their personal accounts to manage applications, profiles, and communications.
+
+---
+
+#### ### 3. Student Login
+* **File Path / Preview:** `![Student Login](StudentScreenshots/studentLogin.png)`
+* **Description:** 
+  * The Student Login screen provides a secure authentication gateway for returning students to access their accounts. 
+  * Powered by encrypted session handling, it ensures that students can securely log in to manage their private profiles.
+
+---
+
+#### ### 4. Student Profile
+* **File Path / Preview:** `![Student Profile](StudentScreenshots/studentProfile.png)`
+* **Description:** 
+  * The Student Profile screen functions as a comprehensive digital portfolio where students can highlight their professional identities. 
+  * It organizes critical details including personal bio, academic background, technical skill sets, and creative projects.
+
+---
+
+#### ### 5. Student Resume
+* **File Path / Preview:** `![Student Resume](StudentScreenshots/studentResume.png)`
+* **Description:** 
+  * The Student Resume screen represents the document repository section of the student portal.
+  * It displays uploaded curriculum vitae (CV) files, giving recruiters deep insights into educational history and technical expertise.
+
+---
+
+#### ### 6. Student Internship Listing
+* **File Path / Preview:** `![Student Internship Listing](StudentScreenshots/studentInternship.png)`
+* **Description:** 
+  * The Student Internship Listing screen acts as the main discovery hub of the platform.
+  * It features an organized catalog of all active and administrator-approved internship opportunities to browse and filter.
+
+---
+
+#### ### 7. Student Internship Details
+* **File Path / Preview:** `![Student Internship Details](StudentScreenshots/studentinternshipDetail.png)`
+* **Description:** 
+  * The Student Internship Details screen provides an in-depth, comprehensive overview of a selected internship.
+  * Students can review vital specifications such as job descriptions, work modes, stipend types, and deadlines before applying.
+
+---
+
+#### ### 8. Student Application
+* **File Path / Preview:** `![Student Application](StudentScreenshots/StudentApplication.png)`
+* **Description:** 
+  * The Student Application screen is the submission portal where students finalize their interest in an opportunity.
+  * It allows users to attach custom cover letters alongside their professional profiles.
+
+---
+
+#### ### 9. Student Chat
+* **File Path / Preview:** `![Student Chat](StudentScreenshots/StudentChat.png)`
+* **Description:** 
+  * The Student Chat screen provides a built-in real-time messaging workspace. 
+  * It enables direct, professional communication channels between applicants and company recruiters.
+
+---
+
+#### ### 10. Student Extra View 1
+* **File Path / Preview:** `![Student View 1](StudentScreenshots/studentProfile.png)`
+* **Description:** 
+  * Displays additional user configuration panels and interactive student interface layouts within the application ecosystem.
+
+---
+
+#### ### 11. Student Extra View 2
+* **File Path / Preview:** `![Student View 2](StudentScreenshots/home.png)`
+* **Description:** 
+  * Illustrates supplementary navigation screens and landing elements for student users exploring the platform.
+
+---
+
+#### ### 12. Student Extra View 3
+* **File Path / Preview:** `![Student View 3](StudentScreenshots/studentRegister.png)`
+* **Description:** 
+  * Highlights form validations and user feedback states during account creation stages.
+
+---
+
+#### ### 13. Student Extra View 4
+* **File Path / Preview:** `![Student View 4](StudentScreenshots/studentLogin.png)`
+* **Description:** 
+  * Demonstrates password recovery layout or alternative authentication flows implemented for students.
+
+---
+
+#### ### 14. Student Extra View 5
+* **File Path / Preview:** `![Student View 5](StudentScreenshots/studentInternship.png)`
+* **Description:** 
+  * Showcases advanced search filtering, sorting options, and category selections for available internships.
+
+---
+
+### 🧑‍💼 Recruiter Screenshots (`recruiterScreenshots`) (Total: 5)
+
+#### ### 1. Recruiter Registration
+* **File Path / Preview:** `![Recruiter Registration](recruiterScreenshots/recruiterRegister.png)`
+* **Description:** 
+  * The Recruiter Registration screen is the dedicated corporate onboarding portal where organizations sign up for the platform. 
+  * It captures essential professional and corporate information for admin verification.
+
+---
+
+#### ### 2. Recruiter Profile
+* **File Path / Preview:** `![Recruiter Profile](recruiterScreenshots/recruiterProfile.png)`
+* **Description:** 
+  * The Recruiter Profile screen functions as the corporate branding center. 
+  * It allows recruiters to build a strong company identity by uploading company logos and business descriptions.
+
+---
+
+#### ### 3. Recruiter Dashboard
+* **File Path / Preview:** `![Recruiter Dashboard](recruiterScreenshots/recruiterDashboard.png)`
+* **Description:** 
+  * The Recruiter Dashboard acts as the central command center for all talent acquisition activities. 
+  * It provides hiring managers with a bird's-eye view of active job postings and candidate metrics.
+
+---
+
+#### ### 4. Recruiter Internship
+* **File Path / Preview:** `![Recruiter Internship](recruiterScreenshots/recruiterInternship.png)`
+* **Description:** 
+  * The Recruiter Internship screen is the structured creation and management form used to publish new positions. 
+  * Recruiters can define job titles, skill sets, and application deadlines.
+
+---
+
+#### ### 5. Recruiter Applications
+* **File Path / Preview:** `![Recruiter Applications](recruiterScreenshots/recruiterApplications.png)`
+* **Description:** 
+  * The Recruiter Applications screen serves as the applicant tracking and evaluation grid. 
+  * Recruiters can review candidate profiles, inspect cover letters, and update application stages.
+
+---
+
+### 🛡️ Admin Screenshots (`adminScreenshots`) (Total: 5)
+
+#### ### 1. Admin Registration
+* **File Path / Preview:** `![Admin Registration](adminScreenshots/adminRegister.png)`
+* **Description:** 
+  * The Admin Registration screen represents the secure account creation area designated exclusively for platform administrators.
+
+---
+
+#### ### 2. Admin Profile
+* **File Path / Preview:** `![Admin Profile](adminScreenshots/adminProfile.png)`
+* **Description:** 
+  * The Admin Profile screen provides platform administrators with a dedicated control panel to view and update system credentials.
+
+---
+
+#### ### 3. Admin Dashboard
+* **File Path / Preview:** `![Admin Dashboard](adminScreenshots/adminDashboard.png)`
+* **Description:** 
+  * The Admin Dashboard is the high-level management hub of the entire platform. 
+  * It grants administrators macro-level visibility to monitor global activities.
+
+---
+
+#### ### 4. Notifications
+* **File Path / Preview:** `![Notifications](adminScreenshots/notifications.png)`
+* **Description:** 
+  * The Notifications screen represents the integrated system-wide alert hub. 
+  * It keeps users informed about critical events like new applications or profile approvals.
+
+---
+
+#### ### 5. Admin System Settings
+* **File Path / Preview:** `![Admin Settings](adminScreenshots/adminDashboard.png)`
+* **Description:** 
+  * Provides additional administrative controls for user governance, system oversight, and enterprise management approvals.
+
+---
+
+
+
+
+
